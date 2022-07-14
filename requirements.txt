@@ -1,0 +1,12 @@
+torch>=1.5
+cmake>=3.13.2
+plyfile
+tensorboardX
+pyyaml
+scipy
+six
+matplotlib
+open3d
+numba
+h5py
+transforms3d
