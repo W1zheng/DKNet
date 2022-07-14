@@ -167,7 +167,7 @@ If you find this work useful in your research, please cite:
         Shuaiyuan Du and Hao Lu and
         Zhiguo Cao and Weicai Zhong},
  booktitle={Proceedings of European Conference on Computer Vision (ECCV)},
- title={Conditional Convolutions for Instance Segmentation},
+ title={3D Instances as 1D Kernels},
  year= {2022}
 }
 ```
