@@ -84,7 +84,7 @@ Further information can be found in [here](https://github.com/Karbo123/segmentat
 
 The dataset files are organized as follows.
 ```
-PointGroup
+DKNet
 ├── dataset
 │   ├── scannetv2
 │   │   ├── train
