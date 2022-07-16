@@ -140,7 +140,7 @@ c. To test with a pretrained model, run
 CUDA_VISIBLE_DEVICES=0 python test.py --config config/DKNet_run1_scannet.yaml --pretrain $PATH_TO_PRETRAIN_MODEL$
 ```
 
-We provide a pretrained model trained on ScanNet v2 dataset. Download it [here(coming soon)](). Its performance on ScanNet v2 validation set is 50.4/66.9/75.9 in terms of mAP/mAP50/mAP25.
+We provide a pretrained model trained on ScanNet v2 dataset. Download it [here](https://www.dropbox.com/s/u1twt0akdlj0dy6/checkpoint.pth?dl=0). Its performance on ScanNet v2 validation set is 50.4/66.9/75.9 in terms of mAP/mAP50/mAP25.
 
 
 ## Visualize
