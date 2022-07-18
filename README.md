@@ -6,7 +6,7 @@ Code for the paper **3D Instances as 1D Kernels**, ECCV 2022.
 
 **Authors**: Wu Yizheng, Shi Min, Du Shuaiyuan, Lu Hao, Cao Zhiguo, Zhong Weicai
 
-[[paper](coming soon)]()
+[[paper]](https://arxiv.org/abs/2207.07372)
 
 ## Introduction
 We introduce a 3D instance representation, termed *instance kernels*, where instances are represented by one-dimensional vectors that encode the semantic, positional, and shape information of 3D instances. We show that instance kernels enable easy mask inference by simply scanning kernels over the entire scenes, avoiding the heavy reliance on proposals or heuristic clustering algorithms in standard 3D instance segmentation pipelines. The idea of instance kernel is inspired by recent success of dynamic convolutions in 2D/3D instance segmentation. However, we find it non-trivial to represent 3D instances due to the disordered and unstructured nature of point cloud data, e.g., poor instance localization can significantly degrade instance representation. To remedy this, we construct a novel 3D instance encoding paradigm. First, potential instance centroids are localized as candidates. Then, a candidate merging scheme is devised to simultaneously aggregate duplicated candidates and collect context around the merged centroids to form the instance kernels. Once instance kernels are available, instance masks can be reconstructed via dynamic convolutions whose weights are conditioned on instance kernels. The whole pipeline is instantiated with a dynamic kernel network (DKNet). Results show that DKNet outperforms the state of the arts on both ScanNetV2 and S3DIS datasets with better instance localization.
