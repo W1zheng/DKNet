@@ -162,13 +162,13 @@ Quantitative results on ScanNet test set at the submisison time.
 ## Citation
 If you find this work useful in your research, please cite:
 ```
-@inproceedings{wu2022dknet,
- author={Yizheng Wu and Min Shi and
-        Shuaiyuan Du and Hao Lu and
-        Zhiguo Cao and Weicai Zhong},
- booktitle={Proceedings of European Conference on Computer Vision (ECCV)},
- title={3D Instances as 1D Kernels},
- year= {2022}
+@inproceedings{wu20223d,
+  title={3D Instances as 1D Kernels},
+  author={Wu, Yizheng and Shi, Min and Du, Shuaiyuan and Lu, Hao and Cao, Zhiguo and Zhong, Weicai},
+  booktitle={Computer Vision--ECCV 2022: 17th European Conference, Tel Aviv, Israel, October 23--27, 2022, Proceedings, Part XXIX},
+  pages={235--252},
+  year={2022},
+  organization={Springer}
 }
 ```
 
